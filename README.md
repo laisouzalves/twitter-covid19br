@@ -23,7 +23,7 @@ O dataset que fizemos para o treino dessa rede neural é o arquivo _twitter_data
 | Preocupações negativas | | Sonhos |
 | | | Campanhas à favor da quarentena |
 
-Ao total foram 10.953 tweets classificados. 
+Ao total foram 10.953 tweets classificados manualmente, para serem utilizados como dados de treino e testes.
 
 Quanto à rede neural, ainda não consegui obter uma rede satisfatória, capaz de classificar ao menos 50% dos sentimentos negativos e positivos, apesar da acurácia total ser acima de 50% (note que os dados de tweets tendem a possuir um número muito maior de sentimentos neutros, em comparação aos outros sentimentos separadamente -- ver o arquivo _Twitter-LSTM-sentiment-analysis.ipynb_).
 
