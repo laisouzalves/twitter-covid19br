@@ -27,7 +27,7 @@ Ao total foram 10.953 tweets classificados manualmente, para serem utilizados co
 
 Quanto à rede neural, ainda não consegui obter uma rede satisfatória, capaz de classificar ao menos 50% dos sentimentos negativos e positivos, apesar da acurácia total ser acima de 50% (note que os dados de tweets tendem a possuir um número muito maior de sentimentos neutros, em comparação aos outros sentimentos separadamente -- ver o arquivo _Twitter-LSTM-sentiment-analysis.ipynb_).
 
-Esses arquivos não possuem a intenção de serem utilizados para deploy e o projeto ainda está em andamento. Os próximos passos seria analisar como a diminuição dos dados de treinamento afeta na acurácia, para então se ter uma ideia de quantos dados a mais de treinamento são necessários, e implementar um grid search nos parâmetros da rede. 
+Esses arquivos não possuem a intenção de serem utilizados para deploy e o projeto ainda está em andamento. Os próximos passos seriam: analisar como a diminuição dos dados de treinamento afeta na acurácia, para então se ter uma ideia de quantos dados a mais de treinamento são necessários, e implementar um grid search nos parâmetros da rede. 
 
 Espero que os arquivos deste repositório possam ser úteis para você.
 
